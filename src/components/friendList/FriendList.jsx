@@ -6,13 +6,13 @@ import FriendListModule from './FriendList.module.css';
 export const FriendList = ({ friendList }) => {
   return (
     <ul className={FriendListModule.friendList}>
-      {friendList.map(({ avatar, name, status, id }) => (
+      {friendList.map(({ avatar, name, isOnline, id }) => (
         <FriendListItem
           className={FriendListModule.item}
           key={id}
           name={name}
           avatar={avatar}
-          status={status}
+          isOnline={isOnline}
         />
       ))}
     </ul>
