@@ -6,7 +6,7 @@ import transactions from './json/transaction.json';
 import { Profile } from './FileProfile/Profile';
 import { Statistics } from './FileStatistics/Statistics';
 import { FriendList } from './FileFriendList/FriendList';
-import { Transactions } from './Transactions/Transactions';
+import { Transactions } from './FileTransactions/Transactions';
 
 export const App = () => {
   return (
