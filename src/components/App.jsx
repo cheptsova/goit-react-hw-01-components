@@ -5,7 +5,7 @@ import transactions from './json/transaction.json';
 
 import { Profile } from './FileProfile/Profile';
 import { Statistics } from './FileStatistics/Statistics';
-import { FriendList } from './FriendList/FriendList';
+import { FriendList } from './FileFriendList/FriendList';
 import { Transactions } from './Transactions/Transactions';
 
 export const App = () => {
